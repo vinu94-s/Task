@@ -1,0 +1,49 @@
+body{
+  font-family: sans-serif;
+  margin: 2rem;
+}
+.wrapper{
+  margin: 2rem;
+  display: grid;
+  gap:5rem;
+  grid-template-columns: 4fr;
+  justify-content: center;
+}
+
+.card{
+  box-shadow: 0 0 10px 5px ;
+  display:inline;
+  min-width: 5rem;
+  
+}
+.card_img{
+  width:14rem;
+  height: 11rem;
+  object-fit: cover;
+}
+.body{
+  margin: 1rem;
+}
+.container{
+  display:flex;
+  gap:1rem;
+}
+.card_title{
+  line-height:1.4rem;
+  margin-bottom:0.5rem;
+}
+.card_price{
+  font-size: 1.4rem;
+  margin-top:0.6rem;
+}
+.card_btn{
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:8px ;
+}
